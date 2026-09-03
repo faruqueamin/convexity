@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 300" role="img" aria-label="Authority envelope: rankers and LLM never fill; RiskGate is the only path to Alpaca">
+  <defs>
+    <linearGradient id="abg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="agate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#312e81"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1100" height="300" rx="18" fill="url(#abg)" stroke="#1f2a44"/>
+  <text x="28" y="34" fill="#8b9cc8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="3.2">AUTHORITY ENVELOPE</text>
+  <text x="28" y="60" fill="#e9eefb" font-family="Inter, Segoe UI, sans-serif" font-size="20" font-weight="700">No model sits in the fill path</text>
+  <text x="28" y="82" fill="#8b9cc8" font-family="Inter, Segoe UI, sans-serif" font-size="13">Rankers score. The LLM narrates. RiskGate is the only checkpoint that can reach Alpaca.</text>
+
+  <g font-family="Inter, Segoe UI, sans-serif">
+    <rect x="24" y="108" width="250" height="164" rx="12" fill="#0f172a" stroke="#1f2a44"/>
+    <text x="40" y="134" fill="#8b9cc8" font-size="11" letter-spacing="1.6">CANDIDATES</text>
+    <rect x="40" y="148" width="218" height="28" rx="6" fill="#132033"/>
+    <text x="52" y="167" fill="#67e8f9" font-size="12">XGBoost  /  contract 0-1</text>
+    <rect x="40" y="184" width="218" height="28" rx="6" fill="#132033"/>
+    <text x="52" y="203" fill="#a5b4fc" font-size="12">NTSM  /  tape continuation</text>
+    <rect x="40" y="220" width="218" height="28" rx="6" fill="#132033"/>
+    <text x="52" y="239" fill="#f0abfc" font-size="12">LLM / human / brain</text>
+
+    <path d="M 286 190 L 328 190" stroke="#4b5d82" stroke-width="2"/>
+    <polygon points="328,184 340,190 328,196" fill="#4b5d82"/>
+
+    <rect x="348" y="108" width="300" height="164" rx="12" fill="url(#agate)" stroke="#818cf8"/>
+    <text x="368" y="136" fill="#c7d2fe" font-size="11" letter-spacing="1.6">MANDATORY</text>
+    <text x="368" y="164" fill="#e9eefb" font-size="22" font-weight="700">RiskGate</text>
+    <text x="368" y="188" fill="#c7d2fe" font-size="13">Fresh quote at order time</text>
+    <text x="368" y="210" fill="#a5b4fc" font-size="12">Spread, ask notional, one working</text>
+    <text x="368" y="228" fill="#a5b4fc" font-size="12">Daily loss lock, paper URL</text>
+    <text x="368" y="250" fill="#86efac" font-size="12" font-weight="600">Pass = submit    Fail = refuse</text>
+
+    <path d="M 660 190 L 702 190" stroke="#4b5d82" stroke-width="2"/>
+    <polygon points="702,184 714,190 702,196" fill="#4b5d82"/>
+
+    <rect x="722" y="108" width="354" height="164" rx="12" fill="#0f172a" stroke="#22d3ee" stroke-opacity="0.4"/>
+    <text x="742" y="136" fill="#8b9cc8" font-size="11" letter-spacing="1.6">ONLY SUBMITTER</text>
+    <text x="742" y="164" fill="#e9eefb" font-size="16" font-weight="700">OptionsPlayEngine</text>
+    <text x="742" y="188" fill="#8b9cc8" font-size="12">POST /v2/orders  -  limit at ask</text>
+    <text x="742" y="210" fill="#8b9cc8" font-size="12">Alpaca paper Trading API</text>
+    <text x="742" y="232" fill="#8b9cc8" font-size="12">CLI reconcile + trade_updates WS</text>
+    <text x="742" y="254" fill="#22d3ee" font-size="12" font-weight="600">assertPaper()  /  $100k paper</text>
+  </g>
+</svg>

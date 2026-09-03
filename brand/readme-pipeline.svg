@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 248" role="img" aria-label="Convexity pipeline: identify, score, decide, execute, manage">
+  <defs>
+    <linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="pcyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+    <linearGradient id="pind" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c026d3"/>
+    </linearGradient>
+    <linearGradient id="pmag" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c026d3"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1100" height="248" rx="18" fill="url(#pbg)" stroke="#1f2a44"/>
+  <text x="28" y="36" fill="#8b9cc8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="3.2">HACKATHON LOOP  /  PAPER ONLY</text>
+  <text x="28" y="62" fill="#e9eefb" font-family="Inter, Segoe UI, sans-serif" font-size="20" font-weight="700">Identify  -  Score  -  Decide  -  Execute  -  Manage</text>
+
+  <g font-family="Inter, Segoe UI, sans-serif">
+    <rect x="24" y="86" width="188" height="132" rx="12" fill="#0f172a" stroke="#22d3ee" stroke-opacity="0.45"/>
+    <circle cx="48" cy="112" r="12" fill="url(#pcyan)"/>
+    <text x="48" y="116" text-anchor="middle" fill="#0b1220" font-size="11" font-weight="700">1</text>
+    <text x="68" y="116" fill="#22d3ee" font-size="12" font-weight="700">IDENTIFY</text>
+    <text x="38" y="142" fill="#e9eefb" font-size="13" font-weight="600">Alpaca universe</text>
+    <text x="38" y="162" fill="#8b9cc8" font-size="11">Optionable names</text>
+    <text x="38" y="178" fill="#8b9cc8" font-size="11">1m bars + ATM-ish</text>
+    <text x="38" y="194" fill="#8b9cc8" font-size="11">chains + snapshots</text>
+
+    <rect x="232" y="86" width="188" height="132" rx="12" fill="#0f172a" stroke="#67e8f9" stroke-opacity="0.35"/>
+    <circle cx="256" cy="112" r="12" fill="url(#pcyan)"/>
+    <text x="256" y="116" text-anchor="middle" fill="#0b1220" font-size="11" font-weight="700">2</text>
+    <text x="276" y="116" fill="#67e8f9" font-size="12" font-weight="700">SCORE</text>
+    <text x="246" y="142" fill="#e9eefb" font-size="13" font-weight="600">XGBoost + NTSM</text>
+    <text x="246" y="162" fill="#8b9cc8" font-size="11">55% contract book</text>
+    <text x="246" y="178" fill="#8b9cc8" font-size="11">45% 1m tape</text>
+    <text x="246" y="194" fill="#8b9cc8" font-size="11">blend &gt;= 0.52</text>
+
+    <rect x="440" y="86" width="188" height="132" rx="12" fill="#0f172a" stroke="#818cf8" stroke-opacity="0.55"/>
+    <circle cx="464" cy="112" r="12" fill="url(#pind)"/>
+    <text x="464" y="116" text-anchor="middle" fill="#0b1220" font-size="11" font-weight="700">3</text>
+    <text x="484" y="116" fill="#a5b4fc" font-size="12" font-weight="700">DECIDE</text>
+    <text x="454" y="142" fill="#e9eefb" font-size="13" font-weight="600">RiskGate</text>
+    <text x="454" y="162" fill="#8b9cc8" font-size="11">Fresh quote at ask</text>
+    <text x="454" y="178" fill="#8b9cc8" font-size="11">Spread / DTE / lock</text>
+    <text x="454" y="194" fill="#8b9cc8" font-size="11">Can only reject</text>
+
+    <rect x="648" y="86" width="188" height="132" rx="12" fill="#0f172a" stroke="#c026d3" stroke-opacity="0.45"/>
+    <circle cx="672" cy="112" r="12" fill="url(#pmag)"/>
+    <text x="672" y="116" text-anchor="middle" fill="#0b1220" font-size="11" font-weight="700">4</text>
+    <text x="692" y="116" fill="#f0abfc" font-size="12" font-weight="700">EXECUTE</text>
+    <text x="662" y="142" fill="#e9eefb" font-size="13" font-weight="600">Paper Trading API</text>
+    <text x="662" y="162" fill="#8b9cc8" font-size="11">Limit at the ask</text>
+    <text x="662" y="178" fill="#8b9cc8" font-size="11">assertPaper()</text>
+    <text x="662" y="194" fill="#8b9cc8" font-size="11">Starts disarmed</text>
+
+    <rect x="856" y="86" width="220" height="132" rx="12" fill="#0f172a" stroke="#f472b6" stroke-opacity="0.4"/>
+    <circle cx="880" cy="112" r="12" fill="url(#pmag)"/>
+    <text x="880" y="116" text-anchor="middle" fill="#0b1220" font-size="11" font-weight="700">5</text>
+    <text x="900" y="116" fill="#f9a8d4" font-size="12" font-weight="700">MANAGE</text>
+    <text x="870" y="142" fill="#e9eefb" font-size="13" font-weight="600">Exits in code</text>
+    <text x="870" y="162" fill="#8b9cc8" font-size="11">Mark-to-bid P&amp;L</text>
+    <text x="870" y="178" fill="#8b9cc8" font-size="11">CLI every 60s</text>
+    <text x="870" y="194" fill="#8b9cc8" font-size="11">Brain can only shrink</text>
+  </g>
+</svg>
