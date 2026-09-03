@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="cxg" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="45%" stop-color="#818cf8"/>
+      <stop offset="75%" stop-color="#c026d3"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+    <filter id="cxglow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#cxglow)">
+    <!-- convex payoff swoosh -->
+    <path d="M 18 78 C 20 96, 42 100, 60 92 C 80 83, 90 62, 94 40 L 84 46 L 100 18 L 106 50 L 99 43 C 95 68, 84 90, 60 99 C 38 107, 12 100, 10 76 Z"
+          fill="url(#cxg)"/>
+  </g>
+</svg>

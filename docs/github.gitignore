@@ -1,0 +1,8 @@
+node_modules/
+_private/
+data/
+envs/*.env
+!envs/.env.example
+src/services/vol10s/public/advanced.html
+*.log
+.DS_Store

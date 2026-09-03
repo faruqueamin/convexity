@@ -1,0 +1,14 @@
+{
+  "name": "Convexity — Autonomous Options Momentum",
+  "short_name": "Convexity",
+  "description": "Multi-agent AI options trading system on Alpaca paper trading",
+  "start_url": "/desk",
+  "display": "standalone",
+  "background_color": "#04060e",
+  "theme_color": "#04060e",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

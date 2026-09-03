@@ -1,0 +1,17 @@
+node_modules/
+_private/
+data/
+envs/*.env
+!envs/.env.example
+!docs/env.example
+*.log
+.DS_Store
+.cursor/
+_shots/
+__pycache__/
+*.pyc
+probe_ollama_tools.js
+scripts/probe_ollama_tools.js
+src/services/vol10s/public/advanced.html
+src/services/vol10s/public/_desk.clean.html
+envs/vol10s-paper.env

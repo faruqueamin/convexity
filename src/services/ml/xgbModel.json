@@ -1,0 +1,14 @@
+{
+  "featureNames": ["spreadPct", "iv", "absDelta", "dte", "logOi", "logVol", "premium", "rvol", "absRet5"],
+  "baseScore": -0.35,
+  "trees": [
+    { "nodes": [{ "f": 0, "t": 12, "left": 1, "right": 2 }, { "leaf": 0.55 }, { "f": 0, "t": 22, "left": 3, "right": 4 }, { "leaf": 0.12 }, { "leaf": -0.55 }] },
+    { "nodes": [{ "f": 2, "t": 0.28, "left": 1, "right": 2 }, { "leaf": -0.25 }, { "f": 2, "t": 0.62, "left": 3, "right": 4 }, { "leaf": 0.42 }, { "leaf": -0.15 }] },
+    { "nodes": [{ "f": 3, "t": 1.5, "left": 1, "right": 2 }, { "leaf": -0.4 }, { "f": 3, "t": 21, "left": 3, "right": 4 }, { "leaf": 0.28 }, { "leaf": 0.05 }] },
+    { "nodes": [{ "f": 1, "t": 0.18, "left": 1, "right": 2 }, { "leaf": -0.2 }, { "f": 1, "t": 0.95, "left": 3, "right": 4 }, { "leaf": 0.22 }, { "leaf": -0.3 }] },
+    { "nodes": [{ "f": 6, "t": 0.45, "left": 1, "right": 2 }, { "leaf": -0.18 }, { "f": 6, "t": 8, "left": 3, "right": 4 }, { "leaf": 0.3 }, { "leaf": -0.22 }] },
+    { "nodes": [{ "f": 7, "t": 1.2, "left": 1, "right": 2 }, { "leaf": -0.12 }, { "f": 7, "t": 3.5, "left": 3, "right": 4 }, { "leaf": 0.35 }, { "leaf": 0.1 }] },
+    { "nodes": [{ "f": 4, "t": 4.5, "left": 1, "right": 2 }, { "leaf": -0.15 }, { "leaf": 0.2 }] },
+    { "nodes": [{ "f": 5, "t": 3.0, "left": 1, "right": 2 }, { "leaf": -0.1 }, { "leaf": 0.18 }] }
+  ]
+}

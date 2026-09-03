@@ -1,0 +1,16 @@
+{
+  "name": "convexity",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Convexity — autonomous options desk for the Alpaca AI Trading Agents Hackathon. Alpaca Trading API + CLI, XGBoost + NTSM rankers, pluggable LLM.",
+  "main": "src/vol10s-paper-server.js",
+  "scripts": {
+    "start": "node src/vol10s-paper-server.js",
+    "dev": "node src/vol10s-paper-server.js",
+    "build:desk": "node scripts/build-public-desk.js"
+  },
+  "dependencies": {
+    "msgpackr": "^2.1.0",
+    "ws": "^8.18.0"
+  }
+}
